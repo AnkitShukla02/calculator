@@ -4,10 +4,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
 }
 
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
 .cal {
     background-color: #fff;
     border-radius: 10px;
